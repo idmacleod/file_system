@@ -1,7 +1,6 @@
 package com.example.codeclan.file_system.controllers;
 
 import com.example.codeclan.file_system.models.Folder;
-import com.example.codeclan.file_system.models.User;
 import com.example.codeclan.file_system.repositories.FolderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -31,5 +30,5 @@ public class FolderController {
         folderRepository.save(folder);
         return new ResponseEntity<>(folder, HttpStatus.CREATED);
     }
-    
+
 }
