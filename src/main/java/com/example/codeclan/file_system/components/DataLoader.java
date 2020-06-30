@@ -40,5 +40,5 @@ public class DataLoader implements ApplicationRunner {
         File app = new File("app", "java", 10, code);
         fileRepository.save(app);
     }
-    
+
 }
