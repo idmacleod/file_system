@@ -34,6 +34,14 @@ public class Folder {
 
     public Folder() {}
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -56,18 +64,6 @@ public class Folder {
 
     public void setUser(User user) {
         this.user = user;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void addFile(File file) {
-        this.files.add(file);
     }
 
 }
